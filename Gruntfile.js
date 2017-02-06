@@ -431,8 +431,8 @@ module.exports = function (grunt) {
           branch: 'build'
         }
       }
-    }
-  
+    },
+
     // Run some tasks in parallel to speed up the build process
     concurrent: {
       server: [
